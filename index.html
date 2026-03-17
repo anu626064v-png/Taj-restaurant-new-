@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taj Restaurant</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+}
+
+header{
+background:#333;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+nav{
+background:#555;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.menu div{
+border:1px solid #ddd;
+padding:15px;
+margin:10px;
+width:200px;
+}
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.gallery img{
+width:200px;
+margin:10px;
+border-radius:10px;
+}
+
+.contact input, .contact textarea{
+width:80%;
+padding:10px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:#333;
+color:white;
+border:none;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+@media(max-width:600px){
+.menu div{
+width:90%;
+}
+.gallery img{
+width:90%;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Taj Restaurant</h1>
+<p>Delicious Food & Great Taste</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#menu">Menu</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Us</h2>
+<p>Welcome to Taj Restaurant. We serve delicious and fresh food with the best taste.</p>
+</section>
+
+<section id="menu">
+<h2>Our Menu</h2>
+<div class="menu">
+<div>Paneer Butter Masala</div>
+<div>Veg Biryani</div>
+<div>Masala Dosa</div>
+<div>Chole Bhature</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="https://picsum.photos/200/150?1">
+<img src="https://picsum.photos/200/150?2">
+<img src="https://picsum.photos/200/150?3">
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<div class="contact">
+<input type="text" placeholder="Your Name"><br>
+<input type="email" placeholder="Your Email"><br>
+<textarea placeholder="Your Message"></textarea><br>
+<button>Send</button>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Taj Restaurant</p>
+</footer>
+
+</body>
+</html>
